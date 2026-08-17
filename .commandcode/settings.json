@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Shell(venvScriptspython:*)",
+      "Shell(Select-Object:*)"
+    ],
+    "deny": [],
+    "defaultMode": "default"
+  }
+}
