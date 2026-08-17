@@ -32,23 +32,23 @@
     },
     "model_metadata": {
       "path": "models/model_metadata.json",
-      "bytes": 1785,
-      "sha256": "f08856473f55aa4132976005b8adbb818e1b1f39977069766ed84139c63175e3"
+      "bytes": 1726,
+      "sha256": "d2b46906ed4d669856adb655bdacd53df5b4cead33ea2ca35b8efdaca8d2e8da"
     },
     "model_audit": {
       "path": "precomputed/model-audit/model_ablation.json",
-      "bytes": 1920,
-      "sha256": "01fd7da6d7945084daee7062007909495c21981ee7f0971f21220f92a8698ce8"
+      "bytes": 1857,
+      "sha256": "4e7a67315da216c21034667bd1598f7d96ca4aa99af052483501394a57bc21f7"
     },
     "upcoming_fixtures": {
       "path": "data_files/upcoming_fixtures.csv",
-      "bytes": 3060,
-      "sha256": "7de50aac1145b459bff32d1c9af85ef3d82e346924ac057bdfae8648e325235e"
+      "bytes": 3005,
+      "sha256": "77879417e76658c2702908ac983f369bf5c0bac23bfd164cd26ddeed186407ff"
     },
     "upcoming_predictions": {
       "path": "data_files/upcoming_predictions.csv",
-      "bytes": 25732,
-      "sha256": "a5e02167e6ac33c1f7de09fbaa49123f1b087f64d9986f3467cb729d7e9af9bd"
+      "bytes": 25677,
+      "sha256": "10a05676da121ab01cc10964f10612293fef8fb9c73a553307da3c2a4dddc48a"
     }
   }
 }
