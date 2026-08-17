@@ -59,7 +59,7 @@ You'll need free API keys from:
 - [football-data.org](https://www.football-data.org/) — Historical match data
 - [Odds-API.io](https://the-odds-api.com/) — Live bookmaker odds
 
-Add them to your `.env` file. See [TECHNICAL.md](TECHNICAL.md) for details.
+Add them to your `.env` file. See [TECHNICAL.md](TECHNICAL.md) for detailed setup, configuration, and development workflows.
 
 ## License
 
