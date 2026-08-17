@@ -1,74 +1,66 @@
-# Pitch Oracle Süper Lig Consumer
+<p align="center">
+  <img src="data_files/logo.png" alt="Turkey Süper Lig Predictions" width="200">
+</p>
 
-This repository is a thin Süper Lig deployment backed by
-`pitch-oracle-core`. League behavior lives in `config.py`; shared data preparation,
-training, artifact contracts, and Streamlit pages come from the immutable core pin.
+<h1 align="center">Turkey Süper Lig Predictions</h1>
 
-## First run
+<p align="center">
+  AI-powered match predictions for Turkish football with bookmaker odds comparison
+</p>
 
-Use Python 3.12 or newer:
+---
 
-Copy `.env.example` to `.env` and set `FD_API_KEY` when using the
-football-data.org integration. Set `ODDS_API_IO_KEY` to enrich upcoming
-predictions with server-cached Odds-API.io 1X2 prices. The integration selects
-bookmakers from `ODDS_API_IO_BOOKMAKERS` (comma-separated; defaults to Bet365
-and Unibet), removes the bookmaker margin, and compares those market
-probabilities with the independent model. Missing odds never stop prediction
-generation; affected fixtures remain explicitly marked as having no bet.
+## Overview
 
-Consumers created by `bootstrap_consumer.py`
-automatically copy the core repository's local `.env` when it exists. The
-populated file is Git-ignored and must never be committed.
+This app predicts outcomes for Turkey's Süper Lig matches using machine learning models trained on historical data. It compares model probabilities against real-time bookmaker odds to identify potential value bets.
 
-Local verification:
+## Features
+
+- **Match Predictions** — Win/Draw/Loss probabilities for upcoming fixtures
+- **Bookmaker Comparison** — Real-time odds from Bet365, Unibet, and more
+- **Value Detection** — Highlights bets where the model disagrees with the market
+- **Team Analysis** — Deep dive into team performance and statistics
+- **Live Standings** — Current league table and historical trends
+- **Model Lab** — Explore model performance and feature importance
+
+## League Info
+
+- **League:** Süper Lig (Turkey)
+- **Teams:** 19 clubs including Galatasaray, Fenerbahçe, Beşiktaş, and more
+- **Data Sources:** football-data.org, ESPN, Odds-API.io
+- **Season:** 2026-27
+
+## Quick Start
+
+1. Clone the repository
+2. Copy `.env.example` to `.env` and add your API keys
+3. Run the app:
 
 ```bash
-python -m venv venv
-venv\\Scripts\\python -m pip install -r requirements.txt
-venv\\Scripts\\python -m compileall -q .
-venv\\Scripts\\python -m pytest -q
-venv\\Scripts\\python scripts/bootstrap_local.py
-venv\\Scripts\\streamlit run predictions.py
-```
-
-On macOS or Linux, activate the virtual environment first and use its Python:
-
-```bash
-python -m venv venv
-source venv/bin/activate
-python -m pip install -r requirements.txt
-python -m compileall -q .
-python -m pytest -q
-python scripts/bootstrap_local.py
+pip install -r requirements.txt
 streamlit run predictions.py
 ```
 
-Generated `data_files/`, `models/`, and `precomputed/` artifacts are produced by
-the **Süper Lig artifact pipeline** workflow. Run it manually after the initial
-push. It must commit those directories together with a strict cache manifest.
+For detailed setup, configuration, and development workflows, see [TECHNICAL.md](TECHNICAL.md).
 
-Before that first build, artifact tests skip because no model cache exists. After
-the workflow succeeds, run `python scripts/verify_consumer.py`; missing or
-mismatched artifacts then fail hard.
+## How It Works
 
-The baseline intentionally uses football-data history and ESPN fixtures. Add
-optional sources only after league-specific coverage and failure-mode tests exist.
+The app uses an ensemble of machine learning models (XGBoost, neural networks) trained on:
+- Historical match results and statistics
+- Team form and head-to-head records
+- Stadium coordinates and weather data
+- Bookmaker odds (for comparison, not prediction)
 
-For GitHub Actions, add the required keys from `.env.example` as repository or
-organization secrets. The reusable artifact workflow receives them through `secrets: inherit`;
-local `.env` files are deliberately unavailable to CI.
+Predictions are generated before each matchday and cached for fast loading.
 
-To refresh only the bookmaker cache and enriched predictions locally:
+## API Keys
 
-```bash
-venv\\Scripts\\python scripts/fetch_live_odds.py
-venv\\Scripts\\python scripts/precompute_predictions.py
-venv\\Scripts\\python -m build_cache_manifest
-```
+You'll need free API keys from:
+- [football-data.org](https://www.football-data.org/) — Historical match data
+- [Odds-API.io](https://the-odds-api.com/) — Live bookmaker odds
 
-The Predictions page also offers a "Fetch latest Odds-API.io prices" button
-(under the Bookmaker market section) that refetches the odds cache and
-regenerates enriched predictions without leaving the app.
+Add them to your `.env` file. See [TECHNICAL.md](TECHNICAL.md) for detailed setup, configuration, and development workflows.
 
-For the full creation, GitHub configuration, validation, release, and core-upgrade
-process, see `docs/new-consumer-repository.md` in `pitch-oracle-core`.
+## License
+
+This project uses the Pitch Oracle core library. See `pitch-oracle-core` for licensing details.
