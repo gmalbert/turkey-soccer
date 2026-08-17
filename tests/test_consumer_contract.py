@@ -1,6 +1,9 @@
+import importlib
+import os
 from pathlib import Path
 
-from config import LEAGUE_CONFIG, ODDS_API_IO_BOOKMAKERS, ODDS_API_IO_LEAGUE_SLUG
+import config as config_module
+from config import LEAGUE_CONFIG, ODDS_API_IO_LEAGUE_SLUG
 from pitch_oracle_core import __version__
 
 
@@ -8,7 +11,10 @@ ROOT = Path(__file__).resolve().parents[1]
 CORE_REF = "v1.3.26"
 
 
-def test_consumer_selects_a_registered_non_epl_league():
+def test_consumer_selects_a_registered_non_epl_league(monkeypatch):
+    monkeypatch.delenv("ODDS_API_IO_BOOKMAKERS", raising=False)
+    importlib.reload(config_module)
+    from config import ODDS_API_IO_BOOKMAKERS
     assert LEAGUE_CONFIG.key == "turkey"
     assert LEAGUE_CONFIG.key != "epl"
     assert LEAGUE_CONFIG.football_data_div
