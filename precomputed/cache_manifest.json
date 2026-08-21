@@ -3,12 +3,12 @@
   "core_version": "1.3.26",
   "feature_policy_version": 3,
   "league": "turkey",
-  "created_at": "2026-08-20T07:53:50.279924+00:00",
+  "created_at": "2026-08-21T07:53:45.692412+00:00",
   "artifacts": {
     "preprocessed_data": {
       "path": "precomputed/preprocessed_data.pkl",
       "bytes": 2866869,
-      "sha256": "6e197e4d375aa9701d2069e20518bc2ebf94960323ff34671962cc0272133f02"
+      "sha256": "d88ef8762ef87a55174c3ddcdcdab1b2db697da64f190342dd1bfa1b3944b679"
     },
     "xgb_baseline": {
       "path": "models/xgb_baseline.pkl",
@@ -18,27 +18,27 @@
     "ensemble": {
       "path": "models/ensemble_model.pkl",
       "bytes": 3879,
-      "sha256": "c2f6c34c1041691204299f7a9d1d8f2b41553d43224c4d23be800aa546cce682"
+      "sha256": "57eb1fae27e558ba770b5dbdc3638e39f76ec15abe8bdd4f67693e33faf512dc"
     },
     "optimized_xgb": {
       "path": "models/optimized_xgb.pkl",
       "bytes": 1191794,
-      "sha256": "b0ffb7d4ba0bfc6019f8a9b43dcd4c4a3bc8985843a6c97b9f9b6848df1fdc47"
+      "sha256": "ea48c65e812681e07de201fbe1d0d950290a0693f270cef8bc87cabb58908233"
     },
     "performance": {
       "path": "models/model_performance.pkl",
       "bytes": 1086,
-      "sha256": "43d3062e040a7cdd7db2c4002ecc28ff40ab198a615cd5e06abe1bd8548af6f6"
+      "sha256": "05eafe7701071b6ec1ba3132bb9b5d45ab87fea77eebe903df6c4013b37030f7"
     },
     "model_metadata": {
       "path": "models/model_metadata.json",
       "bytes": 1819,
-      "sha256": "f03a393ab8528585e2cea43734b6d38587dd9bdf9a5d0d75219fc1b5e6c04fc6"
+      "sha256": "7a8904fd06767c6dbf5e7e63c6e4aef784af0d76981680fec37820918596278e"
     },
     "model_audit": {
       "path": "precomputed/model-audit/model_ablation.json",
       "bytes": 1843,
-      "sha256": "4d945f49b9cdde4124dccc715b7cefe06a97fe9a9566e85d161b8b825613dd20"
+      "sha256": "6e82649972aaaa9f8b4181ff36dc222a4da12df84eb34ed5fd969eb9f929df9a"
     },
     "upcoming_fixtures": {
       "path": "data_files/upcoming_fixtures.csv",
@@ -47,8 +47,8 @@
     },
     "upcoming_predictions": {
       "path": "data_files/upcoming_predictions.csv",
-      "bytes": 26917,
-      "sha256": "feb30d437097aee3f5906dc7eb0af235b77f33a70cbf17f24af5c27b0f90520b"
+      "bytes": 26850,
+      "sha256": "e3cac6f11f39ad2b4cf03c8881517a2edc5b8f1012b598b1c6b7d0b38c33b45f"
     }
   }
 }
