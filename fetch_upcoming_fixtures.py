@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 import os
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -44,10 +44,12 @@ def fetch_upcoming_fixtures(
             or not teams.get("away")
         ):
             continue
-        kickoff = datetime.fromisoformat(event["date"].replace("Z", "+00:00"))
-        kickoff = kickoff.astimezone(ZoneInfo("US/Eastern"))
+        kickoff_utc = datetime.fromisoformat(event["date"].replace("Z", "+00:00"))
+        kickoff_utc = kickoff_utc.astimezone(timezone.utc)
+        kickoff = kickoff_utc.astimezone(ZoneInfo("US/Eastern"))
         rows.append(
             {
+                "kickoff_utc": kickoff_utc.isoformat(),
                 "Date": kickoff.strftime("%Y-%m-%d"),
                 "Time": kickoff.strftime("%H:%M"),
                 "HomeTeam": normalize_team_name(
@@ -62,7 +64,14 @@ def fetch_upcoming_fixtures(
 
     result = pd.DataFrame(
         rows,
-        columns=["Date", "Time", "HomeTeam", "AwayTeam", "Status"],
+        columns=[
+            "kickoff_utc",
+            "Date",
+            "Time",
+            "HomeTeam",
+            "AwayTeam",
+            "Status",
+        ],
     )
     active_output = output_dir or os.getenv(
         "PITCH_ORACLE_DATA_DIR", LEAGUE_CONFIG.data_dir_name
