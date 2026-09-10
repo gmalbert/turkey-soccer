@@ -8,7 +8,7 @@ from pitch_oracle_core import __version__
 
 
 ROOT = Path(__file__).resolve().parents[1]
-CORE_REF = "v1.3.26"
+CORE_REF = "15d379479a812e8352a4e488e014c7e35b016e18"
 
 
 def test_consumer_selects_a_registered_non_epl_league(monkeypatch):
