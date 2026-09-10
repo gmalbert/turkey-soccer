@@ -8,7 +8,8 @@ from pitch_oracle_core import __version__
 
 
 ROOT = Path(__file__).resolve().parents[1]
-CORE_REF = "v1.3.26"
+CORE_REF = "b27766c"
+CORE_VERSION = "1.4.0"
 
 
 def test_consumer_selects_a_registered_non_epl_league(monkeypatch):
@@ -30,7 +31,7 @@ def test_consumer_selects_a_registered_non_epl_league(monkeypatch):
 
 
 def test_core_pin_is_synchronized_everywhere():
-    assert __version__ == CORE_REF.removeprefix("v")
+    assert __version__ == CORE_VERSION
     pin = f"pitch-oracle-core[consumer] @ git+https://github.com/gmalbert/pitch-oracle-core.git@{CORE_REF}"
     assert pin in (ROOT / "requirements.txt").read_text()
     assert pin in (ROOT / "requirements-ci.txt").read_text()
