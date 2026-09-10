@@ -1,6 +1,7 @@
 """Build the strict upcoming-prediction artifact from the shared feature contract."""
 
 from pathlib import Path
+import os
 import pickle
 import sys
 
@@ -31,7 +32,11 @@ def generate() -> Path:
         sep="\t",
     )
     upcoming = pd.read_csv(ROOT / "data_files" / "upcoming_fixtures.csv")
-    if LEAGUE_CONFIG.sources.weather and LEAGUE_CONFIG.stadium_coordinates:
+    if (
+        os.getenv("PITCH_ORACLE_DISABLE_WEATHER") != "1"
+        and LEAGUE_CONFIG.sources.weather
+        and LEAGUE_CONFIG.stadium_coordinates
+    ):
         # Resolve raw fixture team names through the league aliases so names like
         # "Çorum FK" map to their stadium coordinate key ("Corum").
         stadium_map = dict(LEAGUE_CONFIG.team_aliases)
