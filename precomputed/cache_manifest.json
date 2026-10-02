@@ -1,0 +1,174 @@
+{
+  "schema_version": 2,
+  "core_version": "1.5.0",
+  "feature_policy_version": 4,
+  "league": "turkey",
+  "created_at": "2026-10-02T16:17:25.058001+00:00",
+  "artifacts": {
+    "preprocessed_data": {
+      "path": "precomputed/preprocessed_data.pkl",
+      "bytes": 5924485,
+      "sha256": "5009e3d07fdff7fa74230d60b5a2a844759fb073a2f27abe309d2c32c7f8c13a"
+    },
+    "xgb_baseline": {
+      "path": "models/xgb_baseline.pkl",
+      "bytes": 660809,
+      "sha256": "dc9ce919b61c0f05169a5002e126bfd6c36cff6228e1d18ca470aea9fdaa172f"
+    },
+    "ensemble": {
+      "path": "models/ensemble_model.pkl",
+      "bytes": 2871,
+      "sha256": "0392b90c4c24d61aa58dff90ca2ef77b56ef8c3ad2d806df745fe89ed402235d"
+    },
+    "optimized_xgb": {
+      "path": "models/optimized_xgb.pkl",
+      "bytes": 1191201,
+      "sha256": "e7e8d36b719df7f1d240eb5e819feaa633615c5d1ab76705069296687d391b7d"
+    },
+    "performance": {
+      "path": "models/model_performance.pkl",
+      "bytes": 1214,
+      "sha256": "d2f41bebcbc05ad9a1893bfdc724fad7de557cad24beb8ad48aad5546f951096"
+    },
+    "model_metadata": {
+      "path": "models/model_metadata.json",
+      "bytes": 1231,
+      "sha256": "345b305320e1edcd032d5f9b7dc60432db0bfef352c61750e809edf95e0f1a51"
+    },
+    "model_audit": {
+      "path": "precomputed/model-audit/model_ablation.json",
+      "bytes": 2432,
+      "sha256": "54ae659afbadc9ab9d8dc87181566fda0be02658a32d017eae51b80fb33308e2"
+    },
+    "upcoming_fixtures": {
+      "path": "data_files/upcoming_fixtures.csv",
+      "bytes": 13874,
+      "sha256": "81b496992326a740f1c9e4bb7e50c8343e222d6476560843cf4dcc32828fad2c"
+    },
+    "upcoming_predictions": {
+      "path": "data_files/upcoming_predictions.csv",
+      "bytes": 45112,
+      "sha256": "d4209793acaf218e955071446a75bc5bbd385aae2f7a960a5e1723dd76dc94d4"
+    },
+    "dixon_coles_goal_model": {
+      "path": "models/dixon_coles_goal_model.pkl",
+      "bytes": 205589,
+      "sha256": "f157539c7da724fd44e42a13dccafa0e0ca7c580f73d64d79dba09cbac3a5c07"
+    },
+    "dixon_coles_goal_model_metadata": {
+      "path": "models/dixon_coles_goal_model.json",
+      "bytes": 2526,
+      "sha256": "341cf4d24dbc29b4d373a331c95a0d6fb216fa4ff9efa317b5e1404142eb3068"
+    },
+    "goal_model_metrics": {
+      "path": "models/goal_model_metrics.json",
+      "bytes": 188,
+      "sha256": "de68de81750b8a6c38486a2aaa9be6a4fc1e5e0034ba03fda048f5a2630a57b6"
+    },
+    "pitchapi_response_revisions": {
+      "path": "data_files/pitchapi_response_revisions.parquet",
+      "sha256": "abc58eae24da48c71d0d009bf7aa7b7e117cc69d1bdaa059cc91fd121f349d66",
+      "bytes": 4776,
+      "required": false,
+      "schema_version": 2
+    },
+    "pitchapi_upcoming_predictions": {
+      "path": "data_files/pitchapi_upcoming_predictions.csv",
+      "sha256": "2905dd31a2b3d93ded2474cee0f84dd34ebe450250dd4e398c7cbff45a93d9a8",
+      "bytes": 212,
+      "required": false,
+      "schema_version": 2
+    },
+    "pitchapi_matches": {
+      "path": "data_files/pitchapi_matches.csv",
+      "sha256": "8bc9b73300029984ed742b9832b1bc9f201aca7e9929db566535f6319d4ff139",
+      "bytes": 63192,
+      "required": false,
+      "schema_version": 2
+    },
+    "pitchapi_shots": {
+      "path": "data_files/pitchapi_shots.parquet",
+      "sha256": "5bbc7ab57fc681b296445b79150a4d30bbd65ea55a425be4bdb09df3c2583918",
+      "bytes": 33772,
+      "required": false,
+      "schema_version": 2
+    },
+    "pitchapi_match_shot_features": {
+      "path": "data_files/pitchapi_match_shot_features.csv",
+      "sha256": "ee3c056d3498897494ffe49ba8305f120399281ee8a952502386c3930734938f",
+      "bytes": 4365,
+      "required": false,
+      "schema_version": 2
+    },
+    "pitchapi_advanced_team": {
+      "path": "data_files/pitchapi_advanced_team.parquet",
+      "sha256": "d49a225b0e83bbec1e1fd98ca2d783a23066e94e0cb5f0e5e2980159af1a1f87",
+      "bytes": 41162,
+      "required": false,
+      "schema_version": 2
+    },
+    "pitchapi_player_match": {
+      "path": "data_files/pitchapi_player_match.parquet",
+      "sha256": "e64794468afa1e9d1561df49dc3789f7b6c0b669428fae567067497c84005973",
+      "bytes": 69356,
+      "required": false,
+      "schema_version": 2
+    },
+    "pitchapi_lineup_snapshots": {
+      "path": "data_files/pitchapi_lineup_snapshots.parquet",
+      "sha256": "5a4a603e20099cf6aee5001062bff9cba9699d487fec7d0a50d488875a532383",
+      "bytes": 17661,
+      "required": false,
+      "schema_version": 2
+    },
+    "pitchapi_momentum": {
+      "path": "data_files/pitchapi_momentum.parquet",
+      "sha256": "356b6dcb39c5b0fd2589fee86bbe03a3da49e71e61e71a388b53ce6f6d74444a",
+      "bytes": 6367,
+      "required": false,
+      "schema_version": 2
+    },
+    "pitchapi_network": {
+      "path": "data_files/pitchapi_network.parquet",
+      "sha256": "2896caceddb31914d541051bce3974cef9857a36d3059f7f8f0396ef36b08957",
+      "bytes": 30279,
+      "required": false,
+      "schema_version": 2
+    },
+    "pitchapi_heatmaps": {
+      "path": "data_files/pitchapi_heatmaps.parquet",
+      "sha256": "ba9c3a9f3d4621957ff6d55f38fab16f0846592ad77d188a9d63806a3b5e3b4a",
+      "bytes": 42911,
+      "required": false,
+      "schema_version": 2
+    },
+    "pitchapi_health": {
+      "path": "data_files/pitchapi_health.json",
+      "sha256": "3fdcb867173a873d0f8c66ec87f9b73115b984a69b502b05c5607131ffdf0fb4",
+      "bytes": 17516,
+      "required": false,
+      "schema_version": 2
+    },
+    "pitchapi_fixture_audit": {
+      "path": "data_files/pitchapi_fixture_audit.csv",
+      "sha256": "48428e541c2f9a6baaaab5c9651796a830090c8ac9a2a66d095b507a557dd96c",
+      "bytes": 23192,
+      "required": false,
+      "schema_version": 2
+    },
+    "pitchapi_ablation": {
+      "path": "data_files/pitchapi_ablation.json",
+      "sha256": "4ece8569af7cddd8bcf4e3325b6724eb9672ddc014b6d1614610220df1ae0e7b",
+      "bytes": 64802,
+      "required": false,
+      "schema_version": 2
+    }
+  },
+  "pitchapi": {
+    "integration_schema_version": 2,
+    "feature_policy_version": 4,
+    "league_key": "turkey",
+    "enabled_families": [],
+    "evidence_id": null
+  }
+}

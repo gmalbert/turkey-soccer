@@ -1,0 +1,253 @@
+provider_match_id	status	home_team	away_team	kickoff_utc	candidate_count	kickoff_delta_hours	kickoff_comparison
+m_1dT46x	mapped	Galatasaray	Kasımpaşa	2026-10-09T17:00:00+00:00	1	0.0	exact
+m_208420	unmatched	Gençlerbirliği	Amed Sportif	2026-10-10T10:30:00+00:00	0		unresolved
+m_3UVtIr	unmatched	Alanyaspor	Erzurumspor FK	2026-10-10T13:00:00+00:00	0		unresolved
+m_0lfjea	mapped	Samsunspor	Trabzonspor	2026-10-10T13:00:00+00:00	1	0.0	exact
+m_2RpIWF	mapped	Rizespor	Fenerbahçe	2026-10-10T16:00:00+00:00	1	0.0	exact
+m_3s55Uo	mapped	Konyaspor	Başakşehir	2026-10-11T10:30:00+00:00	1	0.0	exact
+m_0sAmks	mapped	Gaziantep FK	Çorum FK	2026-10-11T13:00:00+00:00	1	0.0	exact
+m_1HPX5u	mapped	Beşiktaş	Kocaelispor	2026-10-11T16:00:00+00:00	1	0.0	exact
+m_0v4NPK	mapped	Eyüpspor	Göztepe	2026-10-12T17:00:00+00:00	1	0.0	exact
+m_0nHQhB	mapped	Çorum FK	Rizespor	2026-10-16T17:00:00+00:00	1	0.0	exact
+m_3EHmG2	unmatched	Erzurumspor FK	Eyüpspor	2026-10-17T10:30:00+00:00	0		unresolved
+m_1H4QXY	unmatched	Amed Sportif	Konyaspor	2026-10-17T13:00:00+00:00	0		unresolved
+m_1zEIDP	mapped	Gençlerbirliği	Galatasaray	2026-10-17T13:00:00+00:00	1	0.0	exact
+m_2x5NnQ	mapped	Fenerbahçe	Alanyaspor	2026-10-17T16:00:00+00:00	1	0.0	exact
+m_23c9Wt	mapped	Kasımpaşa	Samsunspor	2026-10-18T10:30:00+00:00	1	0.0	exact
+m_0yauUM	mapped	Kocaelispor	Göztepe	2026-10-18T13:00:00+00:00	1	0.0	exact
+m_0AXnFJ	mapped	Başakşehir	Gaziantep FK	2026-10-18T16:00:00+00:00	1	0.0	exact
+m_1iEOsi	mapped	Trabzonspor	Beşiktaş	2026-10-19T17:00:00+00:00	1	0.0	exact
+m_0YbCcI	mapped	Alanyaspor	Kocaelispor	2026-10-23T17:00:00+00:00	1	0.0	exact
+m_0BNqPO	mapped	Eyüpspor	Kasımpaşa	2026-10-24T10:30:00+00:00	1	0.0	exact
+m_2M5Ypw	unmatched	Gaziantep FK	Erzurumspor FK	2026-10-24T13:00:00+00:00	0		unresolved
+m_3PW3jT	unmatched	Samsunspor	Amed Sportif	2026-10-24T16:00:00+00:00	0		unresolved
+m_092k38	mapped	Konyaspor	Gençlerbirliği	2026-10-25T13:00:00+00:00	1	0.0	exact
+m_0V3NQN	mapped	Göztepe	Çorum FK	2026-10-25T16:00:00+00:00	1	0.0	exact
+m_2hVVbS	mapped	Rizespor	Trabzonspor	2026-10-26T16:00:00+00:00	1	0.0	exact
+m_23cP3l	mapped	Beşiktaş	Başakşehir	2026-10-26T16:00:00+00:00	1	0.0	exact
+m_3JsVZL	mapped	Galatasaray	Fenerbahçe	2026-10-26T18:30:00+00:00	1	0.0	exact
+m_46IsSa	mapped	Konyaspor	Galatasaray	2026-10-30T17:00:00+00:00	1	0.0	exact
+m_0Yscow	unmatched	Erzurumspor FK	Çorum FK	2026-10-31T10:30:00+00:00	0		unresolved
+m_46MtQh	mapped	Kocaelispor	Rizespor	2026-10-31T13:00:00+00:00	1	0.0	exact
+m_2YUMN6	mapped	Fenerbahçe	Göztepe	2026-10-31T16:00:00+00:00	1	0.0	exact
+m_1JeJOl	unmatched	Amed Sportif	Eyüpspor	2026-11-01T10:30:00+00:00	0		unresolved
+m_0BwVd8	mapped	Trabzonspor	Gaziantep FK	2026-11-01T13:00:00+00:00	1	0.0	exact
+m_4FEuOy	mapped	Başakşehir	Samsunspor	2026-11-01T13:00:00+00:00	1	0.0	exact
+m_0obrfR	mapped	Kasımpaşa	Beşiktaş	2026-11-01T16:00:00+00:00	1	0.0	exact
+m_0ILNZ3	mapped	Gençlerbirliği	Alanyaspor	2026-11-02T17:00:00+00:00	1	0.0	exact
+m_12G6QF	mapped	Gaziantep FK	Kasımpaşa	2026-11-06T17:00:00+00:00	1	0.0	exact
+m_1ZfVht	mapped	Eyüpspor	Kocaelispor	2026-11-07T10:30:00+00:00	1	0.0	exact
+m_3PC9J0	mapped	Samsunspor	Konyaspor	2026-11-07T13:00:00+00:00	1	0.0	exact
+m_14mbeK	mapped	Göztepe	Başakşehir	2026-11-07T16:00:00+00:00	1	0.0	exact
+m_2br6kp	unmatched	Galatasaray	Amed Sportif	2026-11-07T16:00:00+00:00	0		unresolved
+m_4eZj2n	unmatched	Rizespor	Erzurumspor FK	2026-11-08T10:30:00+00:00	0		unresolved
+m_2d7YyQ	mapped	Çorum FK	Fenerbahçe	2026-11-08T13:00:00+00:00	1	0.0	exact
+m_4KgMsz	mapped	Alanyaspor	Trabzonspor	2026-11-08T15:30:00+00:00	1	0.0	exact
+m_1m90jr	mapped	Beşiktaş	Gençlerbirliği	2026-11-08T18:00:00+00:00	1	0.0	exact
+m_0DtFS8	mapped	Gençlerbirliği	Gaziantep FK	2026-11-21T10:30:00+00:00	1	0.0	exact
+m_2Nqkzr	mapped	Galatasaray	Samsunspor	2026-11-21T13:00:00+00:00	1	0.0	exact
+m_1J9qAA	unmatched	Amed Sportif	Rizespor	2026-11-21T13:00:00+00:00	0		unresolved
+m_4Nltap	mapped	Kocaelispor	Fenerbahçe	2026-11-21T16:00:00+00:00	1	0.0	exact
+m_42ahTy	unmatched	Erzurumspor FK	Göztepe	2026-11-22T10:30:00+00:00	0		unresolved
+m_1lrxfA	mapped	Konyaspor	Beşiktaş	2026-11-22T13:00:00+00:00	1	0.0	exact
+m_0d0c1o	mapped	Kasımpaşa	Alanyaspor	2026-11-22T13:00:00+00:00	1	0.0	exact
+m_053xJU	mapped	Trabzonspor	Eyüpspor	2026-11-22T16:00:00+00:00	1	0.0	exact
+m_3tsGl4	mapped	Başakşehir	Çorum FK	2026-11-23T17:00:00+00:00	1	0.0	exact
+m_3uX5Mk	mapped	Rizespor	Kasımpaşa	2026-11-27T17:00:00+00:00	1	0.0	exact
+m_16k6dO	mapped	Alanyaspor	Konyaspor	2026-11-27T17:00:00+00:00	1	0.0	exact
+m_0sliPh	mapped	Samsunspor	Gençlerbirliği	2026-11-28T13:00:00+00:00	1	0.0	exact
+m_4KfdZ9	unmatched	Gaziantep FK	Amed Sportif	2026-11-28T16:00:00+00:00	0		unresolved
+m_19ZMIB	mapped	Çorum FK	Kocaelispor	2026-11-29T10:30:00+00:00	1	0.0	exact
+m_4Bhb3d	mapped	Eyüpspor	Başakşehir	2026-11-29T13:00:00+00:00	1	0.0	exact
+m_4NcmMr	unmatched	Fenerbahçe	Erzurumspor FK	2026-11-29T16:00:00+00:00	0		unresolved
+m_0OLvow	mapped	Göztepe	Trabzonspor	2026-11-30T16:00:00+00:00	1	0.0	exact
+m_18i8cZ	mapped	Beşiktaş	Galatasaray	2026-11-30T18:00:00+00:00	1	0.0	exact
+m_3Z3A2K	outside_source_window	Galatasaray	Rizespor	2026-12-04T17:00:00+00:00	0		unresolved
+m_2iNjRO	outside_source_window	Konyaspor	Gaziantep FK	2026-12-05T10:30:00+00:00	0		unresolved
+m_3cVse5	outside_source_window	Amed Sportif	Alanyaspor	2026-12-05T13:00:00+00:00	0		unresolved
+m_4WElCl	outside_source_window	Başakşehir	Fenerbahçe	2026-12-05T16:00:00+00:00	0		unresolved
+m_081Z7p	outside_source_window	Erzurumspor FK	Kocaelispor	2026-12-06T10:30:00+00:00	0		unresolved
+m_4YjLL6	outside_source_window	Beşiktaş	Samsunspor	2026-12-06T13:00:00+00:00	0		unresolved
+m_0dxUwX	outside_source_window	Gençlerbirliği	Eyüpspor	2026-12-06T13:00:00+00:00	0		unresolved
+m_3Y7C3t	outside_source_window	Trabzonspor	Çorum FK	2026-12-06T16:00:00+00:00	0		unresolved
+m_303qJY	outside_source_window	Kasımpaşa	Göztepe	2026-12-07T17:00:00+00:00	0		unresolved
+m_1Wekof	outside_source_window	Çorum FK	Amed Sportif	2026-12-11T17:00:00+00:00	0		unresolved
+m_454omF	outside_source_window	Erzurumspor FK	Kasımpaşa	2026-12-12T10:30:00+00:00	0		unresolved
+m_0c92oi	outside_source_window	Alanyaspor	Samsunspor	2026-12-12T13:00:00+00:00	0		unresolved
+m_4AphVc	outside_source_window	Eyüpspor	Galatasaray	2026-12-12T16:00:00+00:00	0		unresolved
+m_0eY1h5	outside_source_window	Kocaelispor	Gençlerbirliği	2026-12-13T10:30:00+00:00	0		unresolved
+m_1BYHlo	outside_source_window	Rizespor	Başakşehir	2026-12-13T13:00:00+00:00	0		unresolved
+m_37BS6B	outside_source_window	Göztepe	Konyaspor	2026-12-13T13:00:00+00:00	0		unresolved
+m_2R7loM	outside_source_window	Fenerbahçe	Trabzonspor	2026-12-13T16:00:00+00:00	0		unresolved
+m_4EXqjt	outside_source_window	Gaziantep FK	Beşiktaş	2026-12-14T17:00:00+00:00	0		unresolved
+m_1uhTrm	outside_source_window	Kasımpaşa	Fenerbahçe	2026-12-18T17:00:00+00:00	0		unresolved
+m_12CjQP	outside_source_window	Amed Sportif	Göztepe	2026-12-18T17:00:00+00:00	0		unresolved
+m_0sT8gu	outside_source_window	Konyaspor	Eyüpspor	2026-12-19T10:30:00+00:00	0		unresolved
+m_4X4HoL	outside_source_window	Başakşehir	Erzurumspor FK	2026-12-19T13:00:00+00:00	0		unresolved
+m_33uGg5	outside_source_window	Galatasaray	Alanyaspor	2026-12-19T16:00:00+00:00	0		unresolved
+m_06QaK1	outside_source_window	Gençlerbirliği	Çorum FK	2026-12-20T10:30:00+00:00	0		unresolved
+m_3WcJSF	outside_source_window	Samsunspor	Gaziantep FK	2026-12-20T13:00:00+00:00	0		unresolved
+m_3LHRt1	outside_source_window	Beşiktaş	Rizespor	2026-12-20T16:00:00+00:00	0		unresolved
+m_4JUBf1	outside_source_window	Trabzonspor	Kocaelispor	2026-12-21T17:00:00+00:00	0		unresolved
+m_1urauF	outside_source_window	Çorum FK	Konyaspor	2027-01-17T18:00:00+00:00	0		unresolved
+m_1fTr9X	outside_source_window	Erzurumspor FK	Trabzonspor	2027-01-17T18:00:00+00:00	0		unresolved
+m_18ojHx	outside_source_window	Eyüpspor	Samsunspor	2027-01-17T18:00:00+00:00	0		unresolved
+m_1MmQMZ	outside_source_window	Fenerbahçe	Amed Sportif	2027-01-17T18:00:00+00:00	0		unresolved
+m_2gDa4m	outside_source_window	Gaziantep FK	Galatasaray	2027-01-17T18:00:00+00:00	0		unresolved
+m_4M34gK	outside_source_window	Göztepe	Beşiktaş	2027-01-17T18:00:00+00:00	0		unresolved
+m_3HUxXl	outside_source_window	Kocaelispor	Kasımpaşa	2027-01-17T18:00:00+00:00	0		unresolved
+m_2s9E0M	outside_source_window	Rizespor	Gençlerbirliği	2027-01-17T18:00:00+00:00	0		unresolved
+m_16blWL	outside_source_window	Alanyaspor	Başakşehir	2027-01-17T18:00:00+00:00	0		unresolved
+m_1FNR6C	outside_source_window	Göztepe	Samsunspor	2027-01-24T18:00:00+00:00	0		unresolved
+m_0HGVE0	outside_source_window	Kocaelispor	Başakşehir	2027-01-24T18:00:00+00:00	0		unresolved
+m_2CTQQn	outside_source_window	Rizespor	Konyaspor	2027-01-24T18:00:00+00:00	0		unresolved
+m_4NDEW2	outside_source_window	Trabzonspor	Kasımpaşa	2027-01-24T18:00:00+00:00	0		unresolved
+m_3sBebi	outside_source_window	Eyüpspor	Beşiktaş	2027-01-24T18:00:00+00:00	0		unresolved
+m_0D4iSW	outside_source_window	Alanyaspor	Gaziantep FK	2027-01-24T18:00:00+00:00	0		unresolved
+m_4ewO8W	outside_source_window	Erzurumspor FK	Amed Sportif	2027-01-24T18:00:00+00:00	0		unresolved
+m_2NbeFz	outside_source_window	Çorum FK	Galatasaray	2027-01-24T18:00:00+00:00	0		unresolved
+m_0QOBsn	outside_source_window	Fenerbahçe	Gençlerbirliği	2027-01-24T18:00:00+00:00	0		unresolved
+m_0cJ2tC	outside_source_window	Gaziantep FK	Eyüpspor	2027-01-31T18:00:00+00:00	0		unresolved
+m_4VjI0O	outside_source_window	Başakşehir	Trabzonspor	2027-01-31T18:00:00+00:00	0		unresolved
+m_1uvWQm	outside_source_window	Kasımpaşa	Çorum FK	2027-01-31T18:00:00+00:00	0		unresolved
+m_06RRm2	outside_source_window	Konyaspor	Fenerbahçe	2027-01-31T18:00:00+00:00	0		unresolved
+m_4HXLY6	outside_source_window	Beşiktaş	Alanyaspor	2027-01-31T18:00:00+00:00	0		unresolved
+m_2Yez8k	outside_source_window	Amed Sportif	Kocaelispor	2027-01-31T18:00:00+00:00	0		unresolved
+m_3ylHG6	outside_source_window	Samsunspor	Rizespor	2027-01-31T18:00:00+00:00	0		unresolved
+m_1GS0sn	outside_source_window	Gençlerbirliği	Göztepe	2027-01-31T18:00:00+00:00	0		unresolved
+m_3UWnaK	outside_source_window	Galatasaray	Erzurumspor FK	2027-01-31T18:00:00+00:00	0		unresolved
+m_0iIDjj	outside_source_window	Kasımpaşa	Başakşehir	2027-02-07T18:00:00+00:00	0		unresolved
+m_2a4aXy	outside_source_window	Göztepe	Galatasaray	2027-02-07T18:00:00+00:00	0		unresolved
+m_1HOibo	outside_source_window	Fenerbahçe	Samsunspor	2027-02-07T18:00:00+00:00	0		unresolved
+m_3eBEAp	outside_source_window	Alanyaspor	Eyüpspor	2027-02-07T18:00:00+00:00	0		unresolved
+m_1P7WPP	outside_source_window	Erzurumspor FK	Gençlerbirliği	2027-02-07T18:00:00+00:00	0		unresolved
+m_0lZsQs	outside_source_window	Çorum FK	Beşiktaş	2027-02-07T18:00:00+00:00	0		unresolved
+m_0A8zup	outside_source_window	Trabzonspor	Amed Sportif	2027-02-07T18:00:00+00:00	0		unresolved
+m_400zIq	outside_source_window	Rizespor	Gaziantep FK	2027-02-07T18:00:00+00:00	0		unresolved
+m_1p0gAC	outside_source_window	Kocaelispor	Konyaspor	2027-02-07T18:00:00+00:00	0		unresolved
+m_2XhbTU	outside_source_window	Galatasaray	Başakşehir	2027-02-14T18:00:00+00:00	0		unresolved
+m_3Jaa3F	outside_source_window	Gençlerbirliği	Trabzonspor	2027-02-14T18:00:00+00:00	0		unresolved
+m_1xquFu	outside_source_window	Konyaspor	Erzurumspor FK	2027-02-14T18:00:00+00:00	0		unresolved
+m_1haKH6	outside_source_window	Samsunspor	Kocaelispor	2027-02-14T18:00:00+00:00	0		unresolved
+m_4JWj6r	outside_source_window	Alanyaspor	Rizespor	2027-02-14T18:00:00+00:00	0		unresolved
+m_0B9vIy	outside_source_window	Amed Sportif	Kasımpaşa	2027-02-14T18:00:00+00:00	0		unresolved
+m_2vL5tM	outside_source_window	Beşiktaş	Fenerbahçe	2027-02-14T18:00:00+00:00	0		unresolved
+m_3zblic	outside_source_window	Eyüpspor	Çorum FK	2027-02-14T18:00:00+00:00	0		unresolved
+m_38rtOU	outside_source_window	Gaziantep FK	Göztepe	2027-02-14T18:00:00+00:00	0		unresolved
+m_0YPCgm	outside_source_window	Kasımpaşa	Gençlerbirliği	2027-02-21T18:00:00+00:00	0		unresolved
+m_22CSqT	outside_source_window	Çorum FK	Samsunspor	2027-02-21T18:00:00+00:00	0		unresolved
+m_1BRs6K	outside_source_window	Erzurumspor FK	Beşiktaş	2027-02-21T18:00:00+00:00	0		unresolved
+m_3ANsJ9	outside_source_window	Fenerbahçe	Gaziantep FK	2027-02-21T18:00:00+00:00	0		unresolved
+m_33WGwJ	outside_source_window	Göztepe	Alanyaspor	2027-02-21T18:00:00+00:00	0		unresolved
+m_4FBVAM	outside_source_window	Başakşehir	Amed Sportif	2027-02-21T18:00:00+00:00	0		unresolved
+m_05kvJ6	outside_source_window	Rizespor	Eyüpspor	2027-02-21T18:00:00+00:00	0		unresolved
+m_2IMMMB	outside_source_window	Trabzonspor	Konyaspor	2027-02-21T18:00:00+00:00	0		unresolved
+m_3ORTZX	outside_source_window	Kocaelispor	Galatasaray	2027-02-21T18:00:00+00:00	0		unresolved
+m_2SHzRA	outside_source_window	Alanyaspor	Çorum FK	2027-02-28T18:00:00+00:00	0		unresolved
+m_3ee83J	outside_source_window	Konyaspor	Kasımpaşa	2027-02-28T18:00:00+00:00	0		unresolved
+m_3ZRhRi	outside_source_window	Gençlerbirliği	Başakşehir	2027-02-28T18:00:00+00:00	0		unresolved
+m_1YJr2y	outside_source_window	Gaziantep FK	Kocaelispor	2027-02-28T18:00:00+00:00	0		unresolved
+m_0kiTGL	outside_source_window	Galatasaray	Trabzonspor	2027-02-28T18:00:00+00:00	0		unresolved
+m_0Miv6I	outside_source_window	Eyüpspor	Fenerbahçe	2027-02-28T18:00:00+00:00	0		unresolved
+m_417pg0	outside_source_window	Beşiktaş	Amed Sportif	2027-02-28T18:00:00+00:00	0		unresolved
+m_0jVb99	outside_source_window	Rizespor	Göztepe	2027-02-28T18:00:00+00:00	0		unresolved
+m_1R7aLi	outside_source_window	Samsunspor	Erzurumspor FK	2027-02-28T18:00:00+00:00	0		unresolved
+m_1j3mDw	outside_source_window	Kasımpaşa	Galatasaray	2027-03-07T18:00:00+00:00	0		unresolved
+m_0zi1QT	outside_source_window	Kocaelispor	Beşiktaş	2027-03-07T18:00:00+00:00	0		unresolved
+m_49IYjy	outside_source_window	Erzurumspor FK	Alanyaspor	2027-03-07T18:00:00+00:00	0		unresolved
+m_2hj5pZ	outside_source_window	Çorum FK	Gaziantep FK	2027-03-07T18:00:00+00:00	0		unresolved
+m_0xNayF	outside_source_window	Fenerbahçe	Rizespor	2027-03-07T18:00:00+00:00	0		unresolved
+m_0Y2EB4	outside_source_window	Göztepe	Eyüpspor	2027-03-07T18:00:00+00:00	0		unresolved
+m_2cJW3S	outside_source_window	Amed Sportif	Gençlerbirliği	2027-03-07T18:00:00+00:00	0		unresolved
+m_18jNqj	outside_source_window	Başakşehir	Konyaspor	2027-03-07T18:00:00+00:00	0		unresolved
+m_4H9IRN	outside_source_window	Trabzonspor	Samsunspor	2027-03-07T18:00:00+00:00	0		unresolved
+m_3lObrr	outside_source_window	Konyaspor	Amed Sportif	2027-03-14T18:00:00+00:00	0		unresolved
+m_4CiZ26	outside_source_window	Rizespor	Çorum FK	2027-03-14T18:00:00+00:00	0		unresolved
+m_2UGaiG	outside_source_window	Alanyaspor	Fenerbahçe	2027-03-14T18:00:00+00:00	0		unresolved
+m_0i0gyJ	outside_source_window	Beşiktaş	Trabzonspor	2027-03-14T18:00:00+00:00	0		unresolved
+m_1NjBKj	outside_source_window	Eyüpspor	Erzurumspor FK	2027-03-14T18:00:00+00:00	0		unresolved
+m_1RH4dD	outside_source_window	Galatasaray	Gençlerbirliği	2027-03-14T18:00:00+00:00	0		unresolved
+m_1kx3dF	outside_source_window	Gaziantep FK	Başakşehir	2027-03-14T18:00:00+00:00	0		unresolved
+m_224PTG	outside_source_window	Göztepe	Kocaelispor	2027-03-14T18:00:00+00:00	0		unresolved
+m_30wfNi	outside_source_window	Samsunspor	Kasımpaşa	2027-03-14T18:00:00+00:00	0		unresolved
+m_3QQB05	outside_source_window	Kocaelispor	Alanyaspor	2027-03-21T18:00:00+00:00	0		unresolved
+m_3qGqzC	outside_source_window	Amed Sportif	Samsunspor	2027-03-21T18:00:00+00:00	0		unresolved
+m_0KDIn5	outside_source_window	Çorum FK	Göztepe	2027-03-21T18:00:00+00:00	0		unresolved
+m_3FzB1b	outside_source_window	Trabzonspor	Rizespor	2027-03-21T18:00:00+00:00	0		unresolved
+m_3O85CP	outside_source_window	Erzurumspor FK	Gaziantep FK	2027-03-21T18:00:00+00:00	0		unresolved
+m_3ES1DE	outside_source_window	Fenerbahçe	Galatasaray	2027-03-21T18:00:00+00:00	0		unresolved
+m_3IFrS2	outside_source_window	Gençlerbirliği	Konyaspor	2027-03-21T18:00:00+00:00	0		unresolved
+m_3P13ZH	outside_source_window	Başakşehir	Beşiktaş	2027-03-21T18:00:00+00:00	0		unresolved
+m_45hRYG	outside_source_window	Kasımpaşa	Eyüpspor	2027-03-21T18:00:00+00:00	0		unresolved
+m_0G7fj2	outside_source_window	Rizespor	Kocaelispor	2027-04-04T17:00:00+00:00	0		unresolved
+m_1NhkXH	outside_source_window	Çorum FK	Erzurumspor FK	2027-04-04T17:00:00+00:00	0		unresolved
+m_3vKvQS	outside_source_window	Göztepe	Fenerbahçe	2027-04-04T17:00:00+00:00	0		unresolved
+m_28X8G4	outside_source_window	Gaziantep FK	Trabzonspor	2027-04-04T17:00:00+00:00	0		unresolved
+m_22rBLp	outside_source_window	Galatasaray	Konyaspor	2027-04-04T17:00:00+00:00	0		unresolved
+m_0kpdYR	outside_source_window	Eyüpspor	Amed Sportif	2027-04-04T17:00:00+00:00	0		unresolved
+m_3pUPZP	outside_source_window	Beşiktaş	Kasımpaşa	2027-04-04T17:00:00+00:00	0		unresolved
+m_1XoUj3	outside_source_window	Alanyaspor	Gençlerbirliği	2027-04-04T17:00:00+00:00	0		unresolved
+m_2Q2QTv	outside_source_window	Samsunspor	Başakşehir	2027-04-04T17:00:00+00:00	0		unresolved
+m_1iYAkD	outside_source_window	Erzurumspor FK	Rizespor	2027-04-11T17:00:00+00:00	0		unresolved
+m_4RXpWP	outside_source_window	Fenerbahçe	Çorum FK	2027-04-11T17:00:00+00:00	0		unresolved
+m_3AzNt4	outside_source_window	Gençlerbirliği	Beşiktaş	2027-04-11T17:00:00+00:00	0		unresolved
+m_2Easl2	outside_source_window	Başakşehir	Göztepe	2027-04-11T17:00:00+00:00	0		unresolved
+m_3y8Dia	outside_source_window	Kasımpaşa	Gaziantep FK	2027-04-11T17:00:00+00:00	0		unresolved
+m_1KzYEP	outside_source_window	Kocaelispor	Eyüpspor	2027-04-11T17:00:00+00:00	0		unresolved
+m_1IltHm	outside_source_window	Konyaspor	Samsunspor	2027-04-11T17:00:00+00:00	0		unresolved
+m_2yX7yt	outside_source_window	Trabzonspor	Alanyaspor	2027-04-11T17:00:00+00:00	0		unresolved
+m_4OeDFi	outside_source_window	Amed Sportif	Galatasaray	2027-04-11T17:00:00+00:00	0		unresolved
+m_4BRIij	outside_source_window	Rizespor	Amed Sportif	2027-04-18T17:00:00+00:00	0		unresolved
+m_1uTJgO	outside_source_window	Göztepe	Erzurumspor FK	2027-04-18T17:00:00+00:00	0		unresolved
+m_2mShed	outside_source_window	Gaziantep FK	Gençlerbirliği	2027-04-18T17:00:00+00:00	0		unresolved
+m_4W4uw7	outside_source_window	Fenerbahçe	Kocaelispor	2027-04-18T17:00:00+00:00	0		unresolved
+m_3ullXz	outside_source_window	Eyüpspor	Trabzonspor	2027-04-18T17:00:00+00:00	0		unresolved
+m_2PW3Nz	outside_source_window	Çorum FK	Başakşehir	2027-04-18T17:00:00+00:00	0		unresolved
+m_1rhihM	outside_source_window	Beşiktaş	Konyaspor	2027-04-18T17:00:00+00:00	0		unresolved
+m_2XTUzP	outside_source_window	Alanyaspor	Kasımpaşa	2027-04-18T17:00:00+00:00	0		unresolved
+m_2YfKWn	outside_source_window	Samsunspor	Galatasaray	2027-04-18T17:00:00+00:00	0		unresolved
+m_2pvMb0	outside_source_window	Konyaspor	Alanyaspor	2027-04-25T17:00:00+00:00	0		unresolved
+m_2xITDp	outside_source_window	Başakşehir	Eyüpspor	2027-04-25T17:00:00+00:00	0		unresolved
+m_2S3VXK	outside_source_window	Kasımpaşa	Rizespor	2027-04-25T17:00:00+00:00	0		unresolved
+m_1SO9K1	outside_source_window	Trabzonspor	Göztepe	2027-04-25T17:00:00+00:00	0		unresolved
+m_37UYFp	outside_source_window	Gençlerbirliği	Samsunspor	2027-04-25T17:00:00+00:00	0		unresolved
+m_2JXQuW	outside_source_window	Galatasaray	Beşiktaş	2027-04-25T17:00:00+00:00	0		unresolved
+m_1O89Fh	outside_source_window	Erzurumspor FK	Fenerbahçe	2027-04-25T17:00:00+00:00	0		unresolved
+m_1Q2gMN	outside_source_window	Amed Sportif	Gaziantep FK	2027-04-25T17:00:00+00:00	0		unresolved
+m_1yy07K	outside_source_window	Kocaelispor	Çorum FK	2027-04-25T17:00:00+00:00	0		unresolved
+m_1zfhWp	outside_source_window	Fenerbahçe	Başakşehir	2027-05-02T17:00:00+00:00	0		unresolved
+m_11ImAq	outside_source_window	Alanyaspor	Amed Sportif	2027-05-02T17:00:00+00:00	0		unresolved
+m_2kyf6S	outside_source_window	Çorum FK	Trabzonspor	2027-05-02T17:00:00+00:00	0		unresolved
+m_1WNXJt	outside_source_window	Eyüpspor	Gençlerbirliği	2027-05-02T17:00:00+00:00	0		unresolved
+m_2PN1nC	outside_source_window	Gaziantep FK	Konyaspor	2027-05-02T17:00:00+00:00	0		unresolved
+m_2wuRgC	outside_source_window	Göztepe	Kasımpaşa	2027-05-02T17:00:00+00:00	0		unresolved
+m_44bgUH	outside_source_window	Kocaelispor	Erzurumspor FK	2027-05-02T17:00:00+00:00	0		unresolved
+m_1BrKex	outside_source_window	Rizespor	Galatasaray	2027-05-02T17:00:00+00:00	0		unresolved
+m_29GCCy	outside_source_window	Samsunspor	Beşiktaş	2027-05-02T17:00:00+00:00	0		unresolved
+m_4Utz7B	outside_source_window	Beşiktaş	Gaziantep FK	2027-05-09T17:00:00+00:00	0		unresolved
+m_4DXImI	outside_source_window	Galatasaray	Eyüpspor	2027-05-09T17:00:00+00:00	0		unresolved
+m_4IVenY	outside_source_window	Gençlerbirliği	Kocaelispor	2027-05-09T17:00:00+00:00	0		unresolved
+m_2clpE6	outside_source_window	Başakşehir	Rizespor	2027-05-09T17:00:00+00:00	0		unresolved
+m_1NGWUa	outside_source_window	Samsunspor	Alanyaspor	2027-05-09T17:00:00+00:00	0		unresolved
+m_2XO9s1	outside_source_window	Trabzonspor	Fenerbahçe	2027-05-09T17:00:00+00:00	0		unresolved
+m_10jQng	outside_source_window	Kasımpaşa	Erzurumspor FK	2027-05-09T17:00:00+00:00	0		unresolved
+m_2cbyq5	outside_source_window	Konyaspor	Göztepe	2027-05-09T17:00:00+00:00	0		unresolved
+m_4Clrtr	outside_source_window	Amed Sportif	Çorum FK	2027-05-09T17:00:00+00:00	0		unresolved
+m_3ZcoNx	outside_source_window	Göztepe	Amed Sportif	2027-05-16T17:00:00+00:00	0		unresolved
+m_04D2Ef	outside_source_window	Fenerbahçe	Kasımpaşa	2027-05-16T17:00:00+00:00	0		unresolved
+m_2HHzIC	outside_source_window	Eyüpspor	Konyaspor	2027-05-16T17:00:00+00:00	0		unresolved
+m_4WkBlm	outside_source_window	Erzurumspor FK	Başakşehir	2027-05-16T17:00:00+00:00	0		unresolved
+m_1EIpzb	outside_source_window	Çorum FK	Gençlerbirliği	2027-05-16T17:00:00+00:00	0		unresolved
+m_1yXRcw	outside_source_window	Alanyaspor	Galatasaray	2027-05-16T17:00:00+00:00	0		unresolved
+m_34PPTr	outside_source_window	Kocaelispor	Trabzonspor	2027-05-16T17:00:00+00:00	0		unresolved
+m_14nYsV	outside_source_window	Gaziantep FK	Samsunspor	2027-05-16T17:00:00+00:00	0		unresolved
+m_49T2nL	outside_source_window	Rizespor	Beşiktaş	2027-05-16T17:00:00+00:00	0		unresolved
+m_1ejjdx	outside_source_window	Konyaspor	Çorum FK	2027-05-23T17:00:00+00:00	0		unresolved
+m_2J69Or	outside_source_window	Beşiktaş	Göztepe	2027-05-23T17:00:00+00:00	0		unresolved
+m_3XAyaZ	outside_source_window	Galatasaray	Gaziantep FK	2027-05-23T17:00:00+00:00	0		unresolved
+m_45OeVP	outside_source_window	Kasımpaşa	Kocaelispor	2027-05-23T17:00:00+00:00	0		unresolved
+m_1HP298	outside_source_window	Gençlerbirliği	Rizespor	2027-05-23T17:00:00+00:00	0		unresolved
+m_2UKDhT	outside_source_window	Samsunspor	Eyüpspor	2027-05-23T17:00:00+00:00	0		unresolved
+m_3RPugY	outside_source_window	Başakşehir	Alanyaspor	2027-05-23T17:00:00+00:00	0		unresolved
+m_27BHMh	outside_source_window	Trabzonspor	Erzurumspor FK	2027-05-23T17:00:00+00:00	0		unresolved
+m_2je6TG	outside_source_window	Amed Sportif	Fenerbahçe	2027-05-23T17:00:00+00:00	0		unresolved

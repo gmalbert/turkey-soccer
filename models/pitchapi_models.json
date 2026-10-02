@@ -1,0 +1,1 @@
+{"configuration": {"enabled_families": [], "evidence_id": null, "league_key": "turkey", "version": 1}, "models": {"baseline": {"feature_count": 34, "fingerprint": "2497b04967ebbff0479a3b41e9b0c87b8f824597f62f8f75fe5738fc5f3925bf", "model_id": "pitchapi-baseline-v1"}}, "schema_version": 1}

@@ -1,63 +1,64 @@
-Date,Time,HomeTeam,AwayTeam,Status
-2026-09-05,10:00,Erzurum BB,Konyaspor,STATUS_SCHEDULED
-2026-09-05,13:00,Fenerbahce,Besiktas,STATUS_SCHEDULED
-2026-09-06,10:00,Corum,Eyupspor,STATUS_SCHEDULED
-2026-09-06,10:00,Kasimpasa,Amed SFK,STATUS_SCHEDULED
-2026-09-06,13:00,Kocaelispor,Samsunspor,STATUS_SCHEDULED
-2026-09-06,13:00,Trabzonspor,Genclerbirligi,STATUS_SCHEDULED
-2026-09-07,13:00,Rizespor,Alanyaspor,STATUS_SCHEDULED
-2026-09-07,13:00,Goztep,Gaziantep,STATUS_SCHEDULED
-2026-09-11,13:00,Besiktas,Erzurum BB,STATUS_SCHEDULED
-2026-09-12,10:00,Eyupspor,Rizespor,STATUS_SCHEDULED
-2026-09-12,10:00,Samsunspor,Corum,STATUS_SCHEDULED
-2026-09-12,13:00,Alanyaspor,Goztep,STATUS_SCHEDULED
-2026-09-12,13:00,Konyaspor,Trabzonspor,STATUS_SCHEDULED
-2026-09-13,10:00,Genclerbirligi,Kasimpasa,STATUS_SCHEDULED
-2026-09-13,13:00,Amed SFK,Buyuksehyr,STATUS_SCHEDULED
-2026-09-13,13:00,Galatasaray,Kocaelispor,STATUS_SCHEDULED
-2026-09-14,13:00,Gaziantep,Fenerbahce,STATUS_SCHEDULED
-2026-09-18,13:00,Kasimpasa,Konyaspor,STATUS_SCHEDULED
-2026-09-19,10:00,Corum,Alanyaspor,STATUS_SCHEDULED
-2026-09-19,10:00,Kocaelispor,Gaziantep,STATUS_SCHEDULED
-2026-09-19,13:00,Buyuksehyr,Genclerbirligi,STATUS_SCHEDULED
-2026-09-19,13:00,Trabzonspor,Galatasaray,STATUS_SCHEDULED
-2026-09-20,10:00,Erzurum BB,Samsunspor,STATUS_SCHEDULED
-2026-09-20,10:00,Fenerbahce,Eyupspor,STATUS_SCHEDULED
-2026-09-20,13:00,Amed SFK,Besiktas,STATUS_SCHEDULED
-2026-09-20,13:00,Goztep,Rizespor,STATUS_SCHEDULED
-2026-10-11,14:00,Alanyaspor,Erzurum BB,STATUS_SCHEDULED
-2026-10-11,14:00,Besiktas,Kocaelispor,STATUS_SCHEDULED
-2026-10-11,14:00,Rizespor,Fenerbahce,STATUS_SCHEDULED
-2026-10-11,14:00,Eyupspor,Goztep,STATUS_SCHEDULED
-2026-10-11,14:00,Galatasaray,Kasimpasa,STATUS_SCHEDULED
-2026-10-11,14:00,Gaziantep,Corum,STATUS_SCHEDULED
-2026-10-11,14:00,Genclerbirligi,Amed SFK,STATUS_SCHEDULED
-2026-10-11,14:00,Konyaspor,Buyuksehyr,STATUS_SCHEDULED
-2026-10-11,14:00,Samsunspor,Trabzonspor,STATUS_SCHEDULED
-2026-10-18,14:00,Amed SFK,Konyaspor,STATUS_SCHEDULED
-2026-10-18,14:00,Corum,Rizespor,STATUS_SCHEDULED
-2026-10-18,14:00,Erzurum BB,Eyupspor,STATUS_SCHEDULED
-2026-10-18,14:00,Fenerbahce,Alanyaspor,STATUS_SCHEDULED
-2026-10-18,14:00,Genclerbirligi,Galatasaray,STATUS_SCHEDULED
-2026-10-18,14:00,Buyuksehyr,Gaziantep,STATUS_SCHEDULED
-2026-10-18,14:00,Kasimpasa,Samsunspor,STATUS_SCHEDULED
-2026-10-18,14:00,Kocaelispor,Goztep,STATUS_SCHEDULED
-2026-10-18,14:00,Trabzonspor,Besiktas,STATUS_SCHEDULED
-2026-10-25,14:00,Alanyaspor,Kocaelispor,STATUS_SCHEDULED
-2026-10-25,14:00,Besiktas,Buyuksehyr,STATUS_SCHEDULED
-2026-10-25,14:00,Rizespor,Trabzonspor,STATUS_SCHEDULED
-2026-10-25,14:00,Eyupspor,Kasimpasa,STATUS_SCHEDULED
-2026-10-25,14:00,Galatasaray,Fenerbahce,STATUS_SCHEDULED
-2026-10-25,14:00,Gaziantep,Erzurum BB,STATUS_SCHEDULED
-2026-10-25,14:00,Goztep,Corum,STATUS_SCHEDULED
-2026-10-25,14:00,Konyaspor,Genclerbirligi,STATUS_SCHEDULED
-2026-10-25,14:00,Samsunspor,Amed SFK,STATUS_SCHEDULED
-2026-11-01,15:00,Amed SFK,Eyupspor,STATUS_SCHEDULED
-2026-11-01,15:00,Erzurum BB,Corum,STATUS_SCHEDULED
-2026-11-01,15:00,Fenerbahce,Goztep,STATUS_SCHEDULED
-2026-11-01,15:00,Genclerbirligi,Alanyaspor,STATUS_SCHEDULED
-2026-11-01,15:00,Buyuksehyr,Samsunspor,STATUS_SCHEDULED
-2026-11-01,15:00,Kasimpasa,Besiktas,STATUS_SCHEDULED
-2026-11-01,15:00,Kocaelispor,Rizespor,STATUS_SCHEDULED
-2026-11-01,15:00,Konyaspor,Galatasaray,STATUS_SCHEDULED
-2026-11-01,15:00,Trabzonspor,Gaziantep,STATUS_SCHEDULED
+fixture_id,provider_event_id,source,observed_at,kickoff_utc,edition_id,rules_version,Date,Time,HomeTeam,AwayTeam,home_team_id,away_team_id,Status
+turkey:espn:401888280,401888280,espn,2026-10-02T11:58:49.701216+00:00,2026-10-09T17:00:00+00:00,tur.1:2026-27,tur.1-2026-27-v1,2026-10-09,18:00,Galatasaray,Kasimpasa,turkey:galatasaray,turkey:kasimpasa,STATUS_SCHEDULED
+turkey:espn:401888379,401888379,espn,2026-10-02T11:58:49.701216+00:00,2026-10-10T10:30:00+00:00,tur.1:2026-27,tur.1-2026-27-v1,2026-10-10,11:30,Genclerbirligi,Amed SFK,turkey:genclerbirligi,turkey:amed-sfk,STATUS_SCHEDULED
+turkey:espn:401888283,401888283,espn,2026-10-02T11:58:49.701216+00:00,2026-10-10T13:00:00+00:00,tur.1:2026-27,tur.1-2026-27-v1,2026-10-10,14:00,Alanyaspor,Erzurum BB,turkey:alanyaspor,turkey:erzurum-bb,STATUS_SCHEDULED
+turkey:espn:401888278,401888278,espn,2026-10-02T11:58:49.701216+00:00,2026-10-10T13:00:00+00:00,tur.1:2026-27,tur.1-2026-27-v1,2026-10-10,14:00,Samsunspor,Trabzonspor,turkey:samsunspor,turkey:trabzonspor,STATUS_SCHEDULED
+turkey:espn:401888282,401888282,espn,2026-10-02T11:58:49.701216+00:00,2026-10-10T16:00:00+00:00,tur.1:2026-27,tur.1-2026-27-v1,2026-10-10,17:00,Rizespor,Fenerbahce,turkey:rizespor,turkey:fenerbahce,STATUS_SCHEDULED
+turkey:espn:401888281,401888281,espn,2026-10-02T11:58:49.701216+00:00,2026-10-11T10:30:00+00:00,tur.1:2026-27,tur.1-2026-27-v1,2026-10-11,11:30,Konyaspor,Buyuksehyr,turkey:konyaspor,turkey:buyuksehyr,STATUS_SCHEDULED
+turkey:espn:401888380,401888380,espn,2026-10-02T11:58:49.701216+00:00,2026-10-11T13:00:00+00:00,tur.1:2026-27,tur.1-2026-27-v1,2026-10-11,14:00,Gaziantep,Çorum FK,turkey:gaziantep,turkey:corum-fk,STATUS_SCHEDULED
+turkey:espn:401888279,401888279,espn,2026-10-02T11:58:49.701216+00:00,2026-10-11T16:00:00+00:00,tur.1:2026-27,tur.1-2026-27-v1,2026-10-11,17:00,Besiktas,Kocaelispor,turkey:besiktas,turkey:kocaelispor,STATUS_SCHEDULED
+turkey:espn:401888284,401888284,espn,2026-10-02T11:58:49.701216+00:00,2026-10-12T17:00:00+00:00,tur.1:2026-27,tur.1-2026-27-v1,2026-10-12,18:00,Eyupspor,Goztep,turkey:eyupspor,turkey:goztep,STATUS_SCHEDULED
+turkey:espn:401888377,401888377,espn,2026-10-02T11:58:49.701216+00:00,2026-10-16T17:00:00+00:00,tur.1:2026-27,tur.1-2026-27-v1,2026-10-16,18:00,Çorum FK,Rizespor,turkey:corum-fk,turkey:rizespor,STATUS_SCHEDULED
+turkey:espn:401888271,401888271,espn,2026-10-02T11:58:49.701216+00:00,2026-10-17T10:30:00+00:00,tur.1:2026-27,tur.1-2026-27-v1,2026-10-17,11:30,Erzurum BB,Eyupspor,turkey:erzurum-bb,turkey:eyupspor,STATUS_SCHEDULED
+turkey:espn:401888378,401888378,espn,2026-10-02T11:58:49.701216+00:00,2026-10-17T13:00:00+00:00,tur.1:2026-27,tur.1-2026-27-v1,2026-10-17,14:00,Amed SFK,Konyaspor,turkey:amed-sfk,turkey:konyaspor,STATUS_SCHEDULED
+turkey:espn:401888274,401888274,espn,2026-10-02T11:58:49.701216+00:00,2026-10-17T13:00:00+00:00,tur.1:2026-27,tur.1-2026-27-v1,2026-10-17,14:00,Genclerbirligi,Galatasaray,turkey:genclerbirligi,turkey:galatasaray,STATUS_SCHEDULED
+turkey:espn:401888273,401888273,espn,2026-10-02T11:58:49.701216+00:00,2026-10-17T16:00:00+00:00,tur.1:2026-27,tur.1-2026-27-v1,2026-10-17,17:00,Fenerbahce,Alanyaspor,turkey:fenerbahce,turkey:alanyaspor,STATUS_SCHEDULED
+turkey:espn:401888276,401888276,espn,2026-10-02T11:58:49.701216+00:00,2026-10-18T10:30:00+00:00,tur.1:2026-27,tur.1-2026-27-v1,2026-10-18,11:30,Kasimpasa,Samsunspor,turkey:kasimpasa,turkey:samsunspor,STATUS_SCHEDULED
+turkey:espn:401888272,401888272,espn,2026-10-02T11:58:49.701216+00:00,2026-10-18T13:00:00+00:00,tur.1:2026-27,tur.1-2026-27-v1,2026-10-18,14:00,Kocaelispor,Goztep,turkey:kocaelispor,turkey:goztep,STATUS_SCHEDULED
+turkey:espn:401888275,401888275,espn,2026-10-02T11:58:49.701216+00:00,2026-10-18T16:00:00+00:00,tur.1:2026-27,tur.1-2026-27-v1,2026-10-18,17:00,Buyuksehyr,Gaziantep,turkey:buyuksehyr,turkey:gaziantep,STATUS_SCHEDULED
+turkey:espn:401888277,401888277,espn,2026-10-02T11:58:49.701216+00:00,2026-10-19T17:00:00+00:00,tur.1:2026-27,tur.1-2026-27-v1,2026-10-19,18:00,Trabzonspor,Besiktas,turkey:trabzonspor,turkey:besiktas,STATUS_SCHEDULED
+turkey:espn:401888268,401888268,espn,2026-10-02T11:58:49.701216+00:00,2026-10-23T17:00:00+00:00,tur.1:2026-27,tur.1-2026-27-v1,2026-10-23,18:00,Alanyaspor,Kocaelispor,turkey:alanyaspor,turkey:kocaelispor,STATUS_SCHEDULED
+turkey:espn:401888269,401888269,espn,2026-10-02T11:58:49.701216+00:00,2026-10-24T10:30:00+00:00,tur.1:2026-27,tur.1-2026-27-v1,2026-10-24,11:30,Eyupspor,Kasimpasa,turkey:eyupspor,turkey:kasimpasa,STATUS_SCHEDULED
+turkey:espn:401888270,401888270,espn,2026-10-02T11:58:49.701216+00:00,2026-10-24T13:00:00+00:00,tur.1:2026-27,tur.1-2026-27-v1,2026-10-24,14:00,Gaziantep,Erzurum BB,turkey:gaziantep,turkey:erzurum-bb,STATUS_SCHEDULED
+turkey:espn:401888375,401888375,espn,2026-10-02T11:58:49.701216+00:00,2026-10-24T16:00:00+00:00,tur.1:2026-27,tur.1-2026-27-v1,2026-10-24,17:00,Samsunspor,Amed SFK,turkey:samsunspor,turkey:amed-sfk,STATUS_SCHEDULED
+turkey:espn:401888266,401888266,espn,2026-10-02T11:58:49.701216+00:00,2026-10-25T13:00:00+00:00,tur.1:2026-27,tur.1-2026-27-v1,2026-10-25,13:00,Konyaspor,Genclerbirligi,turkey:konyaspor,turkey:genclerbirligi,STATUS_SCHEDULED
+turkey:espn:401888376,401888376,espn,2026-10-02T11:58:49.701216+00:00,2026-10-25T16:00:00+00:00,tur.1:2026-27,tur.1-2026-27-v1,2026-10-25,16:00,Goztep,Çorum FK,turkey:goztep,turkey:corum-fk,STATUS_SCHEDULED
+turkey:espn:401888264,401888264,espn,2026-10-02T11:58:49.701216+00:00,2026-10-26T16:00:00+00:00,tur.1:2026-27,tur.1-2026-27-v1,2026-10-26,16:00,Besiktas,Buyuksehyr,turkey:besiktas,turkey:buyuksehyr,STATUS_SCHEDULED
+turkey:espn:401888267,401888267,espn,2026-10-02T11:58:49.701216+00:00,2026-10-26T16:00:00+00:00,tur.1:2026-27,tur.1-2026-27-v1,2026-10-26,16:00,Rizespor,Trabzonspor,turkey:rizespor,turkey:trabzonspor,STATUS_SCHEDULED
+turkey:espn:401888265,401888265,espn,2026-10-02T11:58:49.701216+00:00,2026-10-26T18:30:00+00:00,tur.1:2026-27,tur.1-2026-27-v1,2026-10-26,18:30,Galatasaray,Fenerbahce,turkey:galatasaray,turkey:fenerbahce,STATUS_SCHEDULED
+turkey:espn:401888259,401888259,espn,2026-10-02T11:58:49.701216+00:00,2026-10-30T17:00:00+00:00,tur.1:2026-27,tur.1-2026-27-v1,2026-10-30,17:00,Konyaspor,Galatasaray,turkey:konyaspor,turkey:galatasaray,STATUS_SCHEDULED
+turkey:espn:401888373,401888373,espn,2026-10-02T11:58:49.701216+00:00,2026-10-31T10:30:00+00:00,tur.1:2026-27,tur.1-2026-27-v1,2026-10-31,10:30,Erzurum BB,Çorum FK,turkey:erzurum-bb,turkey:corum-fk,STATUS_SCHEDULED
+turkey:espn:401888257,401888257,espn,2026-10-02T11:58:49.701216+00:00,2026-10-31T13:00:00+00:00,tur.1:2026-27,tur.1-2026-27-v1,2026-10-31,13:00,Kocaelispor,Rizespor,turkey:kocaelispor,turkey:rizespor,STATUS_SCHEDULED
+turkey:espn:401888258,401888258,espn,2026-10-02T11:58:49.701216+00:00,2026-10-31T16:00:00+00:00,tur.1:2026-27,tur.1-2026-27-v1,2026-10-31,16:00,Fenerbahce,Goztep,turkey:fenerbahce,turkey:goztep,STATUS_SCHEDULED
+turkey:espn:401888374,401888374,espn,2026-10-02T11:58:49.701216+00:00,2026-11-01T10:30:00+00:00,tur.1:2026-27,tur.1-2026-27-v1,2026-11-01,10:30,Amed SFK,Eyupspor,turkey:amed-sfk,turkey:eyupspor,STATUS_SCHEDULED
+turkey:espn:401888261,401888261,espn,2026-10-02T11:58:49.701216+00:00,2026-11-01T13:00:00+00:00,tur.1:2026-27,tur.1-2026-27-v1,2026-11-01,13:00,Buyuksehyr,Samsunspor,turkey:buyuksehyr,turkey:samsunspor,STATUS_SCHEDULED
+turkey:espn:401888263,401888263,espn,2026-10-02T11:58:49.701216+00:00,2026-11-01T13:00:00+00:00,tur.1:2026-27,tur.1-2026-27-v1,2026-11-01,13:00,Trabzonspor,Gaziantep,turkey:trabzonspor,turkey:gaziantep,STATUS_SCHEDULED
+turkey:espn:401888262,401888262,espn,2026-10-02T11:58:49.701216+00:00,2026-11-01T16:00:00+00:00,tur.1:2026-27,tur.1-2026-27-v1,2026-11-01,16:00,Kasimpasa,Besiktas,turkey:kasimpasa,turkey:besiktas,STATUS_SCHEDULED
+turkey:espn:401888260,401888260,espn,2026-10-02T11:58:49.701216+00:00,2026-11-02T17:00:00+00:00,tur.1:2026-27,tur.1-2026-27-v1,2026-11-02,17:00,Genclerbirligi,Alanyaspor,turkey:genclerbirligi,turkey:alanyaspor,STATUS_SCHEDULED
+turkey:espn:401888256,401888256,espn,2026-10-02T11:58:49.701216+00:00,2026-11-06T17:00:00+00:00,tur.1:2026-27,tur.1-2026-27-v1,2026-11-06,17:00,Gaziantep,Kasimpasa,turkey:gaziantep,turkey:kasimpasa,STATUS_SCHEDULED
+turkey:espn:401888255,401888255,espn,2026-10-02T11:58:49.701216+00:00,2026-11-07T10:30:00+00:00,tur.1:2026-27,tur.1-2026-27-v1,2026-11-07,10:30,Eyupspor,Kocaelispor,turkey:eyupspor,turkey:kocaelispor,STATUS_SCHEDULED
+turkey:espn:401888250,401888250,espn,2026-10-02T11:58:49.701216+00:00,2026-11-07T13:00:00+00:00,tur.1:2026-27,tur.1-2026-27-v1,2026-11-07,13:00,Samsunspor,Konyaspor,turkey:samsunspor,turkey:konyaspor,STATUS_SCHEDULED
+turkey:espn:401888371,401888371,espn,2026-10-02T11:58:49.701216+00:00,2026-11-07T16:00:00+00:00,tur.1:2026-27,tur.1-2026-27-v1,2026-11-07,16:00,Galatasaray,Amed SFK,turkey:galatasaray,turkey:amed-sfk,STATUS_SCHEDULED
+turkey:espn:401888252,401888252,espn,2026-10-02T11:58:49.701216+00:00,2026-11-07T16:00:00+00:00,tur.1:2026-27,tur.1-2026-27-v1,2026-11-07,16:00,Goztep,Buyuksehyr,turkey:goztep,turkey:buyuksehyr,STATUS_SCHEDULED
+turkey:espn:401888253,401888253,espn,2026-10-02T11:58:49.701216+00:00,2026-11-08T10:30:00+00:00,tur.1:2026-27,tur.1-2026-27-v1,2026-11-08,10:30,Rizespor,Erzurum BB,turkey:rizespor,turkey:erzurum-bb,STATUS_SCHEDULED
+turkey:espn:401888372,401888372,espn,2026-10-02T11:58:49.701216+00:00,2026-11-08T13:00:00+00:00,tur.1:2026-27,tur.1-2026-27-v1,2026-11-08,13:00,Çorum FK,Fenerbahce,turkey:corum-fk,turkey:fenerbahce,STATUS_SCHEDULED
+turkey:espn:401888254,401888254,espn,2026-10-02T11:58:49.701216+00:00,2026-11-08T15:30:00+00:00,tur.1:2026-27,tur.1-2026-27-v1,2026-11-08,15:30,Alanyaspor,Trabzonspor,turkey:alanyaspor,turkey:trabzonspor,STATUS_SCHEDULED
+turkey:espn:401888251,401888251,espn,2026-10-02T11:58:49.701216+00:00,2026-11-08T18:00:00+00:00,tur.1:2026-27,tur.1-2026-27-v1,2026-11-08,18:00,Besiktas,Genclerbirligi,turkey:besiktas,turkey:genclerbirligi,STATUS_SCHEDULED
+turkey:espn:401888247,401888247,espn,2026-10-02T11:58:49.701216+00:00,2026-11-21T10:30:00+00:00,tur.1:2026-27,tur.1-2026-27-v1,2026-11-21,10:30,Genclerbirligi,Gaziantep,turkey:genclerbirligi,turkey:gaziantep,STATUS_SCHEDULED
+turkey:espn:401888369,401888369,espn,2026-10-02T11:58:49.701216+00:00,2026-11-21T13:00:00+00:00,tur.1:2026-27,tur.1-2026-27-v1,2026-11-21,13:00,Amed SFK,Rizespor,turkey:amed-sfk,turkey:rizespor,STATUS_SCHEDULED
+turkey:espn:401888245,401888245,espn,2026-10-02T11:58:49.701216+00:00,2026-11-21T13:00:00+00:00,tur.1:2026-27,tur.1-2026-27-v1,2026-11-21,13:00,Galatasaray,Samsunspor,turkey:galatasaray,turkey:samsunspor,STATUS_SCHEDULED
+turkey:espn:401888244,401888244,espn,2026-10-02T11:58:49.701216+00:00,2026-11-21T16:00:00+00:00,tur.1:2026-27,tur.1-2026-27-v1,2026-11-21,16:00,Kocaelispor,Fenerbahce,turkey:kocaelispor,turkey:fenerbahce,STATUS_SCHEDULED
+turkey:espn:401888243,401888243,espn,2026-10-02T11:58:49.701216+00:00,2026-11-22T10:30:00+00:00,tur.1:2026-27,tur.1-2026-27-v1,2026-11-22,10:30,Erzurum BB,Goztep,turkey:erzurum-bb,turkey:goztep,STATUS_SCHEDULED
+turkey:espn:401888248,401888248,espn,2026-10-02T11:58:49.701216+00:00,2026-11-22T13:00:00+00:00,tur.1:2026-27,tur.1-2026-27-v1,2026-11-22,13:00,Kasimpasa,Alanyaspor,turkey:kasimpasa,turkey:alanyaspor,STATUS_SCHEDULED
+turkey:espn:401888246,401888246,espn,2026-10-02T11:58:49.701216+00:00,2026-11-22T13:00:00+00:00,tur.1:2026-27,tur.1-2026-27-v1,2026-11-22,13:00,Konyaspor,Besiktas,turkey:konyaspor,turkey:besiktas,STATUS_SCHEDULED
+turkey:espn:401888249,401888249,espn,2026-10-02T11:58:49.701216+00:00,2026-11-22T16:00:00+00:00,tur.1:2026-27,tur.1-2026-27-v1,2026-11-22,16:00,Trabzonspor,Eyupspor,turkey:trabzonspor,turkey:eyupspor,STATUS_SCHEDULED
+turkey:espn:401888370,401888370,espn,2026-10-02T11:58:49.701216+00:00,2026-11-23T17:00:00+00:00,tur.1:2026-27,tur.1-2026-27-v1,2026-11-23,17:00,Buyuksehyr,Çorum FK,turkey:buyuksehyr,turkey:corum-fk,STATUS_SCHEDULED
+turkey:espn:401888241,401888241,espn,2026-10-02T11:58:49.701216+00:00,2026-11-27T17:00:00+00:00,tur.1:2026-27,tur.1-2026-27-v1,2026-11-27,17:00,Alanyaspor,Konyaspor,turkey:alanyaspor,turkey:konyaspor,STATUS_SCHEDULED
+turkey:espn:401888240,401888240,espn,2026-10-02T11:58:49.701216+00:00,2026-11-27T17:00:00+00:00,tur.1:2026-27,tur.1-2026-27-v1,2026-11-27,17:00,Rizespor,Kasimpasa,turkey:rizespor,turkey:kasimpasa,STATUS_SCHEDULED
+turkey:espn:401888236,401888236,espn,2026-10-02T11:58:49.701216+00:00,2026-11-28T13:00:00+00:00,tur.1:2026-27,tur.1-2026-27-v1,2026-11-28,13:00,Samsunspor,Genclerbirligi,turkey:samsunspor,turkey:genclerbirligi,STATUS_SCHEDULED
+turkey:espn:401888368,401888368,espn,2026-10-02T11:58:49.701216+00:00,2026-11-28T16:00:00+00:00,tur.1:2026-27,tur.1-2026-27-v1,2026-11-28,16:00,Gaziantep,Amed SFK,turkey:gaziantep,turkey:amed-sfk,STATUS_SCHEDULED
+turkey:espn:401888367,401888367,espn,2026-10-02T11:58:49.701216+00:00,2026-11-29T10:30:00+00:00,tur.1:2026-27,tur.1-2026-27-v1,2026-11-29,10:30,Çorum FK,Kocaelispor,turkey:corum-fk,turkey:kocaelispor,STATUS_SCHEDULED
+turkey:espn:401888242,401888242,espn,2026-10-02T11:58:49.701216+00:00,2026-11-29T13:00:00+00:00,tur.1:2026-27,tur.1-2026-27-v1,2026-11-29,13:00,Eyupspor,Buyuksehyr,turkey:eyupspor,turkey:buyuksehyr,STATUS_SCHEDULED
+turkey:espn:401888238,401888238,espn,2026-10-02T11:58:49.701216+00:00,2026-11-29T16:00:00+00:00,tur.1:2026-27,tur.1-2026-27-v1,2026-11-29,16:00,Fenerbahce,Erzurum BB,turkey:fenerbahce,turkey:erzurum-bb,STATUS_SCHEDULED
+turkey:espn:401888239,401888239,espn,2026-10-02T11:58:49.701216+00:00,2026-11-30T16:00:00+00:00,tur.1:2026-27,tur.1-2026-27-v1,2026-11-30,16:00,Goztep,Trabzonspor,turkey:goztep,turkey:trabzonspor,STATUS_SCHEDULED
+turkey:espn:401888237,401888237,espn,2026-10-02T11:58:49.701216+00:00,2026-11-30T18:00:00+00:00,tur.1:2026-27,tur.1-2026-27-v1,2026-11-30,18:00,Besiktas,Galatasaray,turkey:besiktas,turkey:galatasaray,STATUS_SCHEDULED
