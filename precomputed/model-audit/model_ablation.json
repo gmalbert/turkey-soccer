@@ -1,5 +1,5 @@
 {
-  "source": "data_files/combined_historical_data_with_calculations_new.csv",
+  "source": "data_files\\combined_historical_data_with_calculations_new.csv",
   "data_quality": {
     "rows": 1424,
     "invalid_dates": 0,
@@ -33,32 +33,32 @@
     },
     {
       "candidate": "odds_heavy",
-      "feature_count": 176,
+      "feature_count": 592,
       "folds": 3,
       "test_rows": 673,
       "metrics": {
-        "accuracy": 0.4234769687964339,
-        "log_loss": 1.6173847958573762,
-        "brier_score": 0.783993156018295,
-        "calibration_error": 0.24986185015465787,
-        "draw_recall": 0.2573099415204678,
-        "mean_confidence": 0.671119771070629,
-        "decisive_lean_rate": 0.6790490341753344
+        "accuracy": 0.41901931649331353,
+        "log_loss": 1.6295202964197326,
+        "brier_score": 0.7852616740467633,
+        "calibration_error": 0.25174913057615367,
+        "draw_recall": 0.2631578947368421,
+        "mean_confidence": 0.6707684470694673,
+        "decisive_lean_rate": 0.6835066864784547
       }
     },
     {
       "candidate": "no_odds",
-      "feature_count": 38,
+      "feature_count": 34,
       "folds": 3,
       "test_rows": 673,
       "metrics": {
-        "accuracy": 0.5185735512630015,
-        "log_loss": 1.006304816742523,
-        "brier_score": 0.6007676825650099,
-        "calibration_error": 0.04433535504944616,
-        "draw_recall": 0.05263157894736842,
-        "mean_confidence": 0.5435618964947607,
-        "decisive_lean_rate": 0.4487369985141159
+        "accuracy": 0.5156017830609212,
+        "log_loss": 1.004501491687587,
+        "brier_score": 0.5993499636768774,
+        "calibration_error": 0.027454717597977716,
+        "draw_recall": 0.04093567251461988,
+        "mean_confidence": 0.5396466985661651,
+        "decisive_lean_rate": 0.43536404160475484
       }
     },
     {
@@ -72,7 +72,7 @@
         "brier_score": 0.6030411841928287,
         "calibration_error": 0.05069753522913957,
         "draw_recall": 0.0,
-        "mean_confidence": 0.566497378303258,
+        "mean_confidence": 0.5664973783032581,
         "decisive_lean_rate": 0.5052005943536404
       }
     }
