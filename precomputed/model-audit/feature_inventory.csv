@@ -190,7 +190,7 @@ home_goal_diff_l10,no_odds,float64,0.008321775312066574,90
 home_clean_sheet_l10,no_odds,float64,0.008321775312066574,27
 home_shots_for_ewm10,no_odds,float64,0.008321775312066574,1403
 home_shots_against_ewm10,no_odds,float64,0.008321775312066574,1405
-home_shot_quality_ewm10,no_odds,float64,0.008321775312066574,1401
+home_shot_quality_ewm10,no_odds,float64,0.008321775312066574,1402
 away_history_n,no_odds,int64,0.0,152
 away_rest_days,no_odds,float64,0.012482662968099861,310
 away_points_l5,no_odds,float64,0.012482662968099861,15
