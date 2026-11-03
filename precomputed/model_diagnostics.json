@@ -1,6 +1,6 @@
 {
   "model": "xgb_baseline.pkl",
   "features": 38,
-  "test_samples": 295,
-  "generated_at": "2026-11-02T17:13:36.456275+00:00"
+  "test_samples": 292,
+  "generated_at": "2026-11-03T15:19:42.402857+00:00"
 }
